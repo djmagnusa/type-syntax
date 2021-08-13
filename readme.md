@@ -1,1 +1,1 @@
-# A React boilerplate for my applications
+# Type Syntax
