@@ -10,9 +10,9 @@ export const Header = ({ startLogout }) => ( //exporting unconnected version
         <div className="content-container">
             <div className="header__content">  
                 <Link className="header__title" to="/dashboard">
-                    <h1>Type Syntax</h1>
+                    <img src="images/logo.png"></img>
                 </Link> 
-                <button className="button button--link" onClick={startLogout}>Logout</button>
+                <button className="button" onClick={startLogout}>Logout</button>
             </div>
         </div>
     </header>
